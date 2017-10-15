@@ -1,0 +1,33 @@
+body {
+  background: white;
+}
+
+#loc, #conditions {
+  font-size: 190%;
+}
+
+#temp {
+  font-size: 1400%;
+  margin-top: -50px;
+  margin-bottom: -50px;
+  background: rgba(0, 0, 0, 0);
+  border: white;
+  color: black;
+}
+
+#degrees {
+  font-size: 200%;
+}
+
+#icon {
+  font-size: 700%;
+  margin-top: 20px;
+}
+
+button:focus { 
+  outline:none 
+}
+
+h1 {
+  font-size: 220%;
+}

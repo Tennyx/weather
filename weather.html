@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Weather
+	</title>
+	<script src="/static/js/weather.js"></script>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<link rel="stylesheet" href="/static/css/weather.css">
+</head>
+
+<body>
+	<div id="box" class="mt-5">
+	  <h2 class="text-center">Current Conditions in:</h2>
+
+		<div id="loc" class="text-center">
+		  Cannot Find Location
+		</div>
+
+		<div class="text-center">
+		  <i id="icon"></i>
+		</div>
+
+		<div class="text-center">
+			<button id="temp" class="center-block"></button>
+		</div>
+
+		<div id="degrees" class="text-center"></div>
+
+		<div id="conditions" class="text-center"></div>
+
+		<div class="text-center">(Click on temperature to cycle celsius & fahrenheit)</div>
+	</div>
+</body>
+</html>
